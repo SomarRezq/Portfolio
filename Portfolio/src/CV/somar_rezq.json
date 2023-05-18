@@ -1,0 +1,306 @@
+{
+  "basics": {
+    "name": "Somar Rezq Almostafa",
+    "label": "Developer",
+    "picture": "",
+    "location": {
+      "postalCode": "1052",
+      "city": "Budapest",
+      "countryCode": "HU",
+      "region": "varoshaz ut 3-5."
+    }
+  },
+  "work": [
+    {
+      "company": "Consprite GMBH",
+      "position": "Senior Software Developer",
+      "website": "https://conesprit.de",
+      "startDate": "2022",
+      "highlights": [
+        "front-end developer",
+        "Writing well-designed, testable and efficient code",
+        "Building reusable components and libraries for future use",
+        "Troubleshooting and debugging to optimize performance",
+        "Providing code documentation and other inputs to technical documents",
+        "Supporting continuous improvement by investigating alternatives and new technologies and presenting these for architectural review",
+        "Participating in code reviews"
+      ]
+    },
+    {
+      "company": "Berries and Company",
+      "position": "Developer",
+      "website": "https://berriesand.co",
+      "startDate": "2021",
+      "highlights": [
+        "full-stack software developer",
+        "working with back-end technologies like .NET core, and Node js (TSED)",
+        "working with front end technologies like Angular js,and React js",
+        "working with various cloude services like MS. Azure,and AWS",
+        "Participated in the development of a sales process automation software in a multinational environment",
+        "Hands-on experience in a multicultural Agile development process",
+        "Azure DevOps build pipeline and deployment",
+        "Terraform based infrastructure provisioning on Azure"
+      ]
+    },
+    {
+      "position": "FreeLance Web Developer",
+      "startDate": "2019",
+      "endDate": "2021",
+      "summary": "Develop web applications using different technologies ",
+      "highlights": [
+        "Developing full website or E-Commerce store based on customers design",
+        "Working in a team with separated duties to make work faster and better",
+        "Experience in WordPress and WooCommerce",
+        "Experience in .NET framework (C#) andASP.NET MVC",
+        "Experience in building android app for the website using Android studio (Java)",
+        "- Experience in HTML, Bootstrap and CSS",
+        "- Building and working with Databases using Sql server, Sql data tool (DS algorithms) and queries using Sql and DMX ",
+        "Building full stack websites using React, Vue and Angular for front-end and node JS, spring boot for Back-end"
+      ]
+    },
+    {
+      "company": "Emmar for Steel Melting.",
+      "position": " Electrical Maintenance Engineer",
+      "startDate": "2018",
+      "endDate": "2020",
+      "summary": "maintanence of supervising a steel melting plant",
+      "highlights": [
+        "Electrical maintenance officer and electrical engineer",
+        "Experience in repairing and inspecting large generators. ",
+        "Write specifications and technical reports. ",
+        "Systemically improve the detailed design of a piece of electronic equipment."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Eötvös Loránd University, Budapest, Hungary ",
+      "area": "Computer Science for Autonomous Systems",
+      "studyType": "Master Degree",
+      "startDate": "2020",
+      "courses": [
+        "Image and Video Processing",
+        "Artificial Intelligence",
+        "Data Science",
+        "3D Computer Vision",
+        "System and Control Theories",
+        "Computer Graphics"
+      ]
+    },
+    {
+      "institution": "Syrian Virtual University, Syria",
+      "area": "Web Science",
+      "studyType": "Master Degree ",
+      "startDate": "2018",
+      "courses": [
+        "Web programing(C#)",
+        "Data Mining",
+        "Web Security",
+        "Mobile Application Developing(Android studio Java)",
+        "Web engineering(EML)"
+      ]
+    },
+    {
+      "institution": "Faculty of Electrical and Mechanical Engineering, Al Baath University, Homs, Syria",
+      "area": "Automatic Control and Computer Engineering",
+      "studyType": "Bachelor Degree",
+      "startDate": "2012",
+      "endDate": "2017",
+      "courses": [
+        "Image and Signal Processing",
+        "Artificial Intelligence",
+        "Micro Controllers",
+        "Micro processors",
+        "Control Theories",
+        "Micro Electronics"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Al-bassel certification for academic excellence",
+      "date": "2014",
+      "awarder": "Higher education ministry, Syria"
+    },
+    {
+      "title": "Al-bassel certification for academic excellence",
+      "date": "2015",
+      "awarder": "Higher education ministry, Syria"
+    },
+    {
+      "title": "Al-bassel certification for academic excellence",
+      "date": "2016",
+      "awarder": "Higher education ministry, Syria"
+    }
+  ],
+  "courses": [
+    {
+      "title": "ASP.NET MVC 5 Identity: Authentication and Authorization",
+      "date": "2021",
+      "awarder": "LinkedIn learning"
+    },
+    {
+      "title": "ASP.NET MVC 5 Essential Training",
+      "date": "2021",
+      "awarder": "LinkedIn learning"
+    },
+    {
+      "title": "Become a C# Developer: Learning Path",
+      "date": "2021",
+      "awarder": "LinkedIn learning"
+    },
+    {
+      "title": "C# Essential Training: 1 Syntax and Object Oriented Programming",
+      "date": "2021",
+      "awarder": "LinkedIn learning"
+    },
+    {
+      "title": "Code Clinic: C#",
+      "date": "2021",
+      "awarder": "LinkedIn learning"
+    },
+    {
+      "title": "Learning C# Algorithms",
+      "date": "2021",
+      "awarder": "LinkedIn learning"
+    },
+    {
+      "title": "C# Design Patterns: Part 1",
+      "date": "2021",
+      "awarder": "LinkedIn learning"
+    },
+    {
+      "title": "Nail Your C# Developer Interview",
+      "date": "2021",
+      "awarder": "LinkedIn learning"
+    },
+    {
+      "title": "C# Essential Training: 2 Flow Control, Arrays, and Exception Handling",
+      "date": "2021",
+      "awarder": "LinkedIn learning"
+    },
+    {
+      "title": "WordPress: Workflows",
+      "date": "2021",
+      "awarder": "LinkedIn learning"
+    },
+    {
+      "title": "WordPress 5 Essential Training: Site Administration",
+      "date": "2021",
+      "awarder": "LinkedIn learning"
+    },
+    {
+      "title": "WordPress 5 Essential Training",
+      "date": "2021",
+      "awarder": "LinkedIn learning"
+    },
+    {
+      "title": "Installing and Running WordPress: Shared Hosting",
+      "date": "2021",
+      "awarder": "LinkedIn learning"
+    },
+    {
+      "title": "Build a Full Website using WordPress",
+      "date": "2021",
+      "awarder": "Coursara"
+    },
+    {
+      "title": "WordPress Ecommerce: WooCommerce",
+      "date": "2021",
+      "awarder": "LinkedIn learning"
+    },
+    {
+      "title": "Course at Laptops Maintenance",
+      "date": "2019",
+      "awarder": "The National Ismaili Council, Salamiyeh, Hama, Syria."
+    },
+    {
+      "title": "Course at Electrical Maintenance",
+      "date": "2018",
+      "awarder": "METC"
+    },
+    {
+      "title": "Course at Computer Maintenance",
+      "date": "2018",
+      "awarder": " Al Zahraa Institution, Salamiyeh, Syria"
+    },
+    {
+      "title": "Course at Android Programming",
+      "date": "2018",
+      "awarder": " Udacity University, United Arab Emirates"
+    },
+    {
+      "title": "Course at Photo Voltaic Energy",
+      "date": "2017",
+      "awarder": "Al Baath University, Homs, Syria"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web",
+      "keywords": [
+        "C#",
+        ".Net",
+        ".Net Core",
+        "Javascript",
+        "Typescript",
+        "Node.js",
+        "Angular",
+        "Vue.js",
+        "jQuery",
+        "PHP",
+        "Python",
+        "HTML",
+        "CSS",
+        "WordPress"
+      ]
+    },
+    {
+      "name": "Mobile",
+      "keywords": [
+        "Android"
+      ]
+    },
+    {
+      "name": "SQL",
+      "keywords": [
+        "Microsoft SQL Server",
+        "MongoDB",
+        "Google FireBase"
+      ]
+    },
+    {
+      "name": "Embedded",
+      "keywords": [
+        "C",
+        "C++",
+        "Micro C",
+        "Basic",
+        "Assembly",
+        "VHDL"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Arabic",
+      "fluency": "Mother Tongue"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Chess",
+      "keywords": [
+        "Lichess",
+        "chess.com"
+      ]
+    },
+    {
+      "name": "Football"
+    }
+  ]
+}
