@@ -1,95 +1,82 @@
 <div *ngIf="portfolioData">
 
-  <mat-card>
-    <img class="img" mat-card-image [src]="portfolioData.basics.picture" style="width: 50px; height: 100px;" alt="Profile picture">
-    <mat-card-content>
+  <div [ngStyle]="styleData.basics">
+    <img div-image [src]="portfolioData.basics.picture" style="width: 50px; height: 100px;" alt="Profile picture">
+    <div>
       <h2>{{ portfolioData.basics.name }}</h2>
       <p>{{ portfolioData.basics.label }}</p>
       <p>{{ portfolioData.basics.location.city }}, {{ portfolioData.basics.location.countryCode }}</p>
-    </mat-card-content>
-  </mat-card>
+    </div>
+  </div>
 
-  <div class="work-section">
+  <div [ngStyle]="styleData.work">
     <h2>Work Experience</h2>
-    <mat-card *ngFor="let work of portfolioData.work">
-      <mat-card-content>
+    <div *ngFor="let work of portfolioData.work">
+      <div>
         <h3>{{ work.company }}</h3>
         <h4>{{ work.position }}</h4>
         <p><a [href]="work.website" target="_blank">{{ work.website }}</a></p>
         <ul>
           <li *ngFor="let highlight of work.highlights">{{ highlight }}</li>
         </ul>
-      </mat-card-content>
-    </mat-card>
+      </div>
+    </div>
   </div>
 
-  <div class="education-section">
+  <div [ngStyle]="styleData.education">
     <h2>Education</h2>
-    <mat-card *ngFor="let education of portfolioData.education">
-      <mat-card-content>
+    <div *ngFor="let education of portfolioData.education">
+      <div>
         <h3>{{ education.institution }}</h3>
-        <h4>{{ education.area }}</h4>
-        <p>{{ education.studyType }}</p>
+        <h4>{{ education.area }} - {{ education.studyType }}</h4>
         <ul>
           <li *ngFor="let course of education.courses">{{ course }}</li>
         </ul>
-      </mat-card-content>
-    </mat-card>
+      </div>
+    </div>
   </div>
 
-  <div class="awards-section">
+  <div [ngStyle]="styleData.awards">
     <h2>Awards</h2>
-    <mat-card *ngFor="let award of portfolioData.awards">
-      <mat-card-content>
+    <div *ngFor="let award of portfolioData.awards">
+      <div>
         <h3>{{ award.title }}</h3>
-        <p>{{ award.date }} - {{ award.awarder }}</p>
-      </mat-card-content>
-    </mat-card>
+        <h4>Awarded by {{ award.awarder }} on {{ award.date }}</h4>
+      </div>
+    </div>
   </div>
 
-  <div class="courses-section">
-    <h2>Courses</h2>
-    <mat-card *ngFor="let course of portfolioData.courses">
-      <mat-card-content>
-        <h3>{{ course.title }}</h3>
-        <p>{{ course.date }} - {{ course.awarder }}</p>
-      </mat-card-content>
-    </mat-card>
-  </div>
-
-  <div class="skills-section">
+  <div [ngStyle]="styleData.skills">
     <h2>Skills</h2>
-    <mat-card *ngFor="let skill of portfolioData.skills">
-      <mat-card-content>
+    <div *ngFor="let skill of portfolioData.skills">
+      <div>
         <h3>{{ skill.name }}</h3>
         <ul>
           <li *ngFor="let keyword of skill.keywords">{{ keyword }}</li>
         </ul>
-      </mat-card-content>
-    </mat-card>
+      </div>
+    </div>
   </div>
 
-  <div class="languages-section">
+  <div [ngStyle]="styleData.language">
     <h2>Languages</h2>
-    <mat-card *ngFor="let language of portfolioData.languages">
-      <mat-card-content>
-        <h3>{{ language.language }}</h3>
-        <p>{{ language.fluency }}</p>
-      </mat-card-content>
-    </mat-card>
+    <div *ngFor="let language of portfolioData.languages">
+      <div>
+        <h3>{{ language.language }} - {{ language.fluency }}</h3>
+      </div>
+    </div>
   </div>
 
-  <div class="interests-section">
+  <div [ngStyle]="styleData.interests">
     <h2>Interests</h2>
-    <mat-card *ngFor="let interest of portfolioData.interests">
-      <mat-card-content>
+    <div *ngFor="let interest of portfolioData.interests">
+      <div>
         <h3>{{ interest.name }}</h3>
         <ul>
           <li *ngFor="let keyword of interest.keywords">{{ keyword }}</li>
         </ul>
-      </mat-card-content>
-    </mat-card>
+      </div>
+    </div>
   </div>
 
 </div>
-

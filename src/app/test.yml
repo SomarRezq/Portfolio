@@ -1,0 +1,76 @@
+- Define Location data structure:
+    postalCode: "String"
+    city: "String"
+    countryCode: "String"
+    region: "String"
+
+- Define Basics data structure:
+    name: "String"
+    label: "String"
+    picture: "String"
+    location: "Location"
+
+- Define Work data structure:
+    company: "String"
+    position: "String"
+    website: "String"
+    startDate: "String"
+    endDate: "String"
+    summary: "String"
+    highlights: ["String"]
+
+- Define Education data structure:
+    institution: "String"
+    area: "String"
+    studyType: "String"
+    startDate: "String"
+    endDate: "String"
+    courses: ["String"]
+
+- Define Award data structure:
+    title: "String"
+    date: "String"
+    awarder: "String"
+
+- Define Course data structure:
+    title: "String"
+    date: "String"
+    awarder: "String"
+
+- Define Skill data structure:
+    name: "String"
+    keywords: ["String"]
+
+- Define Language data structure:
+    language: "String"
+    fluency: "String"
+
+- Define Interest data structure:
+    name: "String"
+    keywords: ["String"]
+
+- Define Resume data structure:
+    basics: "Basics"
+    work: ["Work"]
+    education: ["Education"]
+    awards: ["Award"]
+    courses: ["Course"]
+    skills: ["Skill"]
+    languages: ["Language"]
+    interests: ["Interest"]
+
+- Define EmployeeService:
+    - Define methods: 
+        - getPortfolioData: 
+            task: "performs http get request from this path: (./assets/CV/portfolioData.json)"
+        - getStyleData: 
+            task: "performs http get request from this path: (./assets/CV/styleData.json)"
+
+- Define AppComponent:
+    - Define methods: 
+        - onInit: 
+            task: "gets the portfolio data from PortfolioService"
+            task: "gets the style data from PortfolioService"
+
+- Define the HTML for AppComponent:
+    - task: "For each property in portfolioData, display the property's details in a separate <div> and apply the style from styleData"

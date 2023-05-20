@@ -1,0 +1,24 @@
+{
+  "basics": {
+    "margin": "20px 0",
+    "background": "#fff"
+  },
+  "work": {
+    "margin": "20px 0"
+  },
+  "education": {
+    "margin": "20px 0"
+  },
+  "awards": {
+    "margin": "20px 0"
+  },
+  "skills": {
+    "margin": "20px 0"
+  },
+  "languages": {
+    "margin": "20px 0"
+  },
+  "interests": {
+    "margin": "20px 0"
+  }
+}

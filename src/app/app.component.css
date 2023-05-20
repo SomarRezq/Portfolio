@@ -1,44 +1,43 @@
-body {
+div {
     font-family: Arial, sans-serif;
+    margin: 10px 0;
 }
 
-.mat-card {
-    margin: 20px 0;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
-}
-
-.img {
-    border-radius: 5px 5px 0 0;
-}
-
-.mat-card-content {
-    padding: 15px;
+div-image {
+    display: block;
+    margin: 0 auto;
 }
 
 h2 {
     color: #333;
-}
-
-.work-section, .education-section, .awards-section, .courses-section, .skills-section, .languages-section, .interests-section {
-    margin-bottom: 50px;
-}
-
-.work-section h3, .education-section h3, .awards-section h3, .courses-section h3, .skills-section h3, .languages-section h3, .interests-section h3 {
-    color: #333;
+    font-size: 24px;
     margin-bottom: 10px;
 }
 
+h3 {
+    color: #666;
+    font-size: 20px;
+}
+
+h4 {
+    color: #999;
+    font-size: 16px;
+}
+
+p, a, li {
+    color: #666;
+    font-size: 14px;
+}
+
 a {
-    color: #337ab7;
     text-decoration: none;
+    color: #0066cc;
 }
 
 a:hover {
-    text-decoration: underline;
+    color: #003366;
 }
 
 ul {
-    list-style-type: disc;
-    margin-left: 20px;
+    padding-left: 20px;
 }

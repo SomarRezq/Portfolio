@@ -1,0 +1,30 @@
+- Define Employee data structure:
+    id: "Number"
+    name: "String"
+    position: "String"
+    department: "String"
+
+- Define EmployeeService:
+    - Create initial list of employees
+    - Define BehaviorSubject to handle employee data updates
+    - Define methods: 
+        - addEmployee: 
+            task: "Appends new employee to list and updates BehaviorSubject"
+        - updateEmployee: 
+            task: "Finds employee in list, modifies it and updates BehaviorSubject"
+        - deleteEmployee: 
+            task: "Removes employee from list and updates BehaviorSubject"
+
+- Define EmployeeComponent:
+    - Subscribe to employee updates from EmployeeService
+    - Define methods: 
+        - addEmployee: 
+            task: "Creates a new employee and calls addEmployee from EmployeeService"
+        - updateEmployee: 
+            task: "Creates an updated employee and calls updateEmployee from EmployeeService"
+        - deleteEmployee: 
+            task: "Calls deleteEmployee from EmployeeService with employee id"
+
+- Define the HTML for EmployeeComponent:
+    - task: "For each employee in employees list, display the employee's details and 'Update' and 'Delete' buttons"
+    - task: "Add an 'Add Employee' button to add a new employee"
