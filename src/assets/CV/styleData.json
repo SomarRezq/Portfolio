@@ -1,24 +1,56 @@
 {
+  "parallax": {
+    "height": "100vh",
+    "background-image": "url(../assets/rocks.jpg)",
+    "background-size": "cover",
+    "background-repeat": "no-repeat",
+    "background-position": "center",
+    "background-attachment": "fixed",
+    "welcome": {
+      "z-index": "0",
+      "height": "100%",
+      "position": "absolute",
+      "top": "1300px",
+      "left": "34%",
+      "text-align": "center",
+        "color": "white",
+        "font-size": "8vw",
+        "text-shadow":"0 0 5px black"
+    }
+  },
   "basics": {
     "margin": "20px 0",
-    "background": "#fff"
+    "font-size": "2rem",
+    "padding": "2rem"
   },
   "work": {
-    "margin": "20px 0"
+    "margin": "20px 0",
+    "font-size": "2rem",
+    "padding": "2rem"
   },
   "education": {
-    "margin": "20px 0"
+    "margin": "20px 0",
+    "font-size": "2rem",
+    "padding": "2rem"
   },
   "awards": {
-    "margin": "20px 0"
+    "margin": "20px 0",
+    "font-size": "2rem",
+    "padding": "2rem"
   },
   "skills": {
-    "margin": "20px 0"
+    "margin": "20px 0",
+    "font-size": "2rem",
+    "padding": "2rem"
   },
   "languages": {
-    "margin": "20px 0"
+    "margin": "20px 0",
+    "font-size": "2rem",
+    "padding": "2rem"
   },
   "interests": {
-    "margin": "20px 0"
+    "margin": "20px 0",
+    "font-size": "2rem",
+    "padding": "2rem"
   }
 }

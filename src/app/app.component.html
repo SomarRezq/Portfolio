@@ -1,82 +1,90 @@
-<div *ngIf="portfolioData">
+<div style="display:flex; flex-direction: column;" *ngIf="portfolioData">
 
-  <div [ngStyle]="styleData.basics">
-    <img div-image [src]="portfolioData.basics.picture" style="width: 50px; height: 100px;" alt="Profile picture">
-    <div>
-      <h2>{{ portfolioData.basics.name }}</h2>
-      <p>{{ portfolioData.basics.label }}</p>
-      <p>{{ portfolioData.basics.location.city }}, {{ portfolioData.basics.location.countryCode }}</p>
+  <div [ngStyle]="styleData.parallax">
+    <!-- <img [ngStyle]="styleData.parallax.picture" [src]="portfolioData.parallax.picture" alt="mountains"> -->
+      <h1 appParallax [ratio]="1.2" [ngStyle]="styleData.parallax.welcome">{{ portfolioData.parallax.welcome }}</h1>
+  </div>
+
+  <div style="background-color: rgb(82, 79, 79); z-index:1;">
+    <div [ngStyle]="styleData.basics">
+      <img div-image [src]="portfolioData.basics.picture" style="width: 50px; height: 100px;" alt="Profile picture">
+      <div>
+        <h2>{{ portfolioData.basics.name }}</h2>
+        <p>{{ portfolioData.basics.label }}</p>
+        <p>{{ portfolioData.basics.location.city }}, {{ portfolioData.basics.location.countryCode }}</p>
+      </div>
+    </div>
+  
+    <div [ngStyle]="styleData.work">
+      <h2>Work Experience</h2>
+      <div *ngFor="let work of portfolioData.work">
+        <div>
+          <h3>{{ work.company }}</h3>
+          <h4>{{ work.position }}</h4>
+          <p><a [href]="work.website" target="_blank">{{ work.website }}</a></p>
+          <ul>
+            <li *ngFor="let highlight of work.highlights">{{ highlight }}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  
+    <div [ngStyle]="styleData.education">
+      <h2>Education</h2>
+      <div *ngFor="let education of portfolioData.education">
+        <div>
+          <h3>{{ education.institution }}</h3>
+          <h4>{{ education.area }} - {{ education.studyType }}</h4>
+          <ul>
+            <li *ngFor="let course of education.courses">{{ course }}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  
+    <div [ngStyle]="styleData.awards">
+      <h2>Awards</h2>
+      <div *ngFor="let award of portfolioData.awards">
+        <div>
+          <h3>{{ award.title }}</h3>
+          <h4>Awarded by {{ award.awarder }} on {{ award.date }}</h4>
+        </div>
+      </div>
+    </div>
+  
+    <div [ngStyle]="styleData.skills">
+      <h2>Skills</h2>
+      <div *ngFor="let skill of portfolioData.skills">
+        <div>
+          <h3>{{ skill.name }}</h3>
+          <ul>
+            <li *ngFor="let keyword of skill.keywords">{{ keyword }}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  
+    <div [ngStyle]="styleData.language">
+      <h2>Languages</h2>
+      <div *ngFor="let language of portfolioData.languages">
+        <div>
+          <h3>{{ language.language }} - {{ language.fluency }}</h3>
+        </div>
+      </div>
+    </div>
+  
+    <div [ngStyle]="styleData.interests">
+      <h2>Interests</h2>
+      <div *ngFor="let interest of portfolioData.interests">
+        <div>
+          <h3>{{ interest.name }}</h3>
+          <ul>
+            <li *ngFor="let keyword of interest.keywords">{{ keyword }}</li>
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
   
-  <div [ngStyle]="styleData.work">
-    <h2>Work Experience</h2>
-    <div *ngFor="let work of portfolioData.work">
-      <div>
-        <h3>{{ work.company }}</h3>
-        <h4>{{ work.position }}</h4>
-        <p><a [href]="work.website" target="_blank">{{ work.website }}</a></p>
-        <ul>
-          <li *ngFor="let highlight of work.highlights">{{ highlight }}</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <div [ngStyle]="styleData.education">
-    <h2>Education</h2>
-    <div *ngFor="let education of portfolioData.education">
-      <div>
-        <h3>{{ education.institution }}</h3>
-        <h4>{{ education.area }} - {{ education.studyType }}</h4>
-        <ul>
-          <li *ngFor="let course of education.courses">{{ course }}</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <div [ngStyle]="styleData.awards">
-    <h2>Awards</h2>
-    <div *ngFor="let award of portfolioData.awards">
-      <div>
-        <h3>{{ award.title }}</h3>
-        <h4>Awarded by {{ award.awarder }} on {{ award.date }}</h4>
-      </div>
-    </div>
-  </div>
-
-  <div [ngStyle]="styleData.skills">
-    <h2>Skills</h2>
-    <div *ngFor="let skill of portfolioData.skills">
-      <div>
-        <h3>{{ skill.name }}</h3>
-        <ul>
-          <li *ngFor="let keyword of skill.keywords">{{ keyword }}</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <div [ngStyle]="styleData.language">
-    <h2>Languages</h2>
-    <div *ngFor="let language of portfolioData.languages">
-      <div>
-        <h3>{{ language.language }} - {{ language.fluency }}</h3>
-      </div>
-    </div>
-  </div>
-
-  <div [ngStyle]="styleData.interests">
-    <h2>Interests</h2>
-    <div *ngFor="let interest of portfolioData.interests">
-      <div>
-        <h3>{{ interest.name }}</h3>
-        <ul>
-          <li *ngFor="let keyword of interest.keywords">{{ keyword }}</li>
-        </ul>
-      </div>
-    </div>
-  </div>
 
 </div>

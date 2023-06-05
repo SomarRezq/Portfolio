@@ -9,6 +9,7 @@ import { Subscription } from 'rxjs';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
+[x: string]: any;
   portfolioData: any;
   styleData: any;
 

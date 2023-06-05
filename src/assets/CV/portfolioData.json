@@ -1,4 +1,8 @@
 {
+  "parallax": {
+    "picture": "../assets/rocks.jpg",
+    "welcome": "Welcome"
+  },
   "basics": {
     "name": "Somar Rezq Almostafa",
     "label": "Developer",
