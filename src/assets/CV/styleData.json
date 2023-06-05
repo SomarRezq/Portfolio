@@ -10,13 +10,17 @@
       "z-index": "0",
       "height": "100%",
       "position": "absolute",
-      "top": "1300px",
+      "top": "100px",
       "left": "34%",
       "text-align": "center",
         "color": "white",
         "font-size": "8vw",
         "text-shadow":"0 0 5px black"
     }
+  },
+  "CVLayout":{
+    "background-color": "rgb(41, 147, 182)",
+    "z-index": "1"
   },
   "basics": {
     "margin": "20px 0",
