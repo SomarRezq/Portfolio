@@ -1,12 +1,12 @@
 {
   "parallax": {
-    "picture": "../assets/rocks.jpg",
+    "picture": "",
     "welcome": "Welcome"
   },
   "basics": {
     "name": "Somar Rezq Almostafa",
     "label": "Developer",
-    "picture": "../assets/photo_2022-10-13_19-24-22.jpg",
+    "picture": "",
     "location": {
       "postalCode": "1052",
       "city": "Budapest",

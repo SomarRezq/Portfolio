@@ -1,4 +1,8 @@
 {
+  "bodyStyle": {
+    "display": "flex",
+    "flex-direction": "column"
+  },
   "parallax": {
     "height": "100vh",
     "background-image": "url(../assets/rocks.jpg)",
@@ -13,12 +17,12 @@
       "top": "100px",
       "left": "34%",
       "text-align": "center",
-        "color": "white",
-        "font-size": "8vw",
-        "text-shadow":"0 0 5px black"
+      "color": "white",
+      "font-size": "8vw",
+      "text-shadow": "0 0 5px black"
     }
   },
-  "CVLayout":{
+  "CVLayout": {
     "background-color": "rgb(41, 147, 182)",
     "z-index": "1"
   },

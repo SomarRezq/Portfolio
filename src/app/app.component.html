@@ -1,8 +1,7 @@
-<div style="display:flex; flex-direction: column;" *ngIf="portfolioData">
+<div [ngStyle]="styleData.bodyStyle" *ngIf="portfolioData">
 
   <div [ngStyle]="styleData.parallax">
-    <!-- <img [ngStyle]="styleData.parallax.picture" [src]="portfolioData.parallax.picture" alt="mountains"> -->
-      <h1 appParallax [ratio]="1.2" [ngStyle]="styleData.parallax.welcome">{{ portfolioData.parallax.welcome }}</h1>
+    <h1 [ngStyle]="styleData.parallax.welcome">{{ portfolioData.parallax.welcome }}</h1>
   </div>
 
   <div [ngStyle]="styleData.CVLayout">
@@ -14,7 +13,7 @@
         <p>{{ portfolioData.basics.location.city }}, {{ portfolioData.basics.location.countryCode }}</p>
       </div>
     </div>
-  
+
     <div [ngStyle]="styleData.work">
       <h2>Work Experience</h2>
       <div *ngFor="let work of portfolioData.work">
@@ -28,7 +27,7 @@
         </div>
       </div>
     </div>
-  
+
     <div [ngStyle]="styleData.education">
       <h2>Education</h2>
       <div *ngFor="let education of portfolioData.education">
@@ -41,7 +40,7 @@
         </div>
       </div>
     </div>
-  
+
     <div [ngStyle]="styleData.awards">
       <h2>Awards</h2>
       <div *ngFor="let award of portfolioData.awards">
@@ -51,7 +50,7 @@
         </div>
       </div>
     </div>
-  
+
     <div [ngStyle]="styleData.skills">
       <h2>Skills</h2>
       <div *ngFor="let skill of portfolioData.skills">
@@ -63,7 +62,7 @@
         </div>
       </div>
     </div>
-  
+
     <div [ngStyle]="styleData.language">
       <h2>Languages</h2>
       <div *ngFor="let language of portfolioData.languages">
@@ -72,7 +71,7 @@
         </div>
       </div>
     </div>
-  
+
     <div [ngStyle]="styleData.interests">
       <h2>Interests</h2>
       <div *ngFor="let interest of portfolioData.interests">
@@ -85,6 +84,6 @@
       </div>
     </div>
   </div>
-  
+
 
 </div>
