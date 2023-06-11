@@ -7,7 +7,6 @@ import { MatCardModule } from '@angular/material/card';
 
 import { AppComponent } from './app.component';
 import { PortfolioService } from './Services/PortfolioService';
-import { ParallaxDirective } from './parallax.Directive';
 import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
