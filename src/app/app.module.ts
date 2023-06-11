@@ -11,8 +11,7 @@ import { ParallaxDirective } from './parallax.Directive';
 import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
-    AppComponent,
-    ParallaxDirective
+    AppComponent
   ],
   imports: [
     FormsModule,
